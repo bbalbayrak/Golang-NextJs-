@@ -2,11 +2,11 @@
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
-export default function deneme() {
+export default function MainPage() {
   const router = useRouter();
   useEffect(() => {
     router.replace(`/users`);
-  }, []);
+  });
 
   return <></>;
 }
